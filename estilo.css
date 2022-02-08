@@ -1,0 +1,400 @@
+@charset "utf-8";
+
+ body
+ {
+    background-color: #e1a643;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-align: justify;
+    color: black;
+    padding: 0;
+    margin: 0;
+ }
+
+ #principal
+ {
+     width: 1180px;
+     height: auto;
+     background-color: #f0d3a1;
+     margin: 0 auto;
+     padding: 10px;
+ }
+
+ #topo
+ {
+     width: 100%;
+     height: 150px;
+ }
+
+#logo 
+ {
+     float: left;
+     /*background: royalblue;*/
+     width: 100px;
+     height: 100px; 
+ }
+
+ #slogan 
+ {
+    width: 330px;
+    height: 150px;
+    /*background: salmon;*/
+    float: right;
+    text-align: right;
+    line-height: 150px;
+    padding: 0 10px;
+ }
+
+#slogan p /*tirando a margem do paragrafo do slogan*/
+{
+    margin: 0;
+}
+
+#menu /*criacao do menu- utilizado nas pags home,empresa e serviço*/
+{
+    background: #F48D09;
+    width: 100%;
+    height: 50px;
+}
+
+#navegacao /*criacao do menu- utilizado nas pags home,empresa e serviço*/
+{
+    margin: 0;
+    padding: 0;
+}
+
+#navegacao li /*criacao do menu- utilizado nas pags home,empresa e serviço*/
+{
+    list-style: none; /*tira a bolinha*/
+    float: left;
+}
+
+a.linkmenu:link, a.linkmenu:visited /*configuracoes do menu - utilizado nas pags home,empresa e serviço*/
+{
+    display: block;
+    width: 234px;
+    height: 48px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 48px;
+    color: white;
+    font-weight: bold;
+    border: black 1px solid;
+}
+
+a.linkmenu:hover, a.linkmenu:active /*configuracoes do menu - utilizado nas pags home,empresa e serviço*/
+{
+    background-color: #FF662B;
+    border:rgb(187, 63, 10) 1px dashed;
+    color: black;
+}
+
+#rodape /* div principal do rodape- utilizado nas pag home,empresa e serviço*/
+{
+    width: 100%;
+    height: 50px;
+    background-color:#F48D09;
+}
+
+#copyright /* div do lado esquerdo- localizado no rodape- utilizado nas pag home,empresa e serviço*/
+{
+    width: 68%;
+    height: 50px;
+    background-color: #F48D09;
+    float: left;
+    line-height: 50px;
+    padding: 0 1%;
+    color: white;
+}
+
+#creditos /* div do lado direito- localizado no rodape- utilizado nas pag home,empresa e serviço*/
+{
+    width: 28%;
+    height: 50px;
+    background-color: #F48D09;
+    float: right;
+    text-align: right;
+    line-height: 50px;
+    padding: 0 1%;
+    color: white;
+    
+}
+
+
+a.sitedesenvolvedor:link, a.sitedesenvolvedor:visited /* nome que fica no rodape - utilizado nas pag home,empresa e serviço*/
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a.sitedesenvolvedor:hover, a.sitedesenvolvedor:active /*nome que fica no rodape - utilizado nas pag home,empresa e serviço*/
+{
+     color: black;
+}
+
+.titulo /*utilizado nas pag home,empresa e serviço*/
+{
+    text-align: center;
+}
+
+#conteudo /*utilizado nas pag home,empresa e serviço*/
+{
+    width: 96%;
+    height: auto;
+    background: #F9E1BD;
+    padding: 10px 2%;
+    
+}
+/*partes da pagina de empresa*/
+
+
+#texto /*div principal pertecente a quem somos da pagina empresa*/
+{
+    width: 570px;
+    height: auto;
+    float: left;
+    padding: 10px;
+   
+}
+
+#lateral /*div principal pertecente a nossos especialista da pagina empresa*/
+{
+    width: 500px;
+    height: auto;
+    float: right;
+    padding: 10px;
+        
+}
+
+.imagemlateral /*divs da lateral direira*/
+{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+      
+}
+
+.especialistasdiv /* divs com os especialista , que esta dentro da div lateral*/
+{
+    width: 480px;
+    height: 130px;
+    background: #F2CF98 ;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.italico /* classe do paragrafo de descricao da divs nossos especialistas*/
+{
+    font-style: italic;
+}
+
+.linksaibamais /*classe para ajeitar o link do saiba mais*/
+{
+    display: block;
+    background: #F48D09;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    float: right;
+    margin-top: 10px;
+    
+           
+}
+
+a.linksaibamais:link, a.linksaibamais:visited /* configuracoes do botao saiba mais*/
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.linksaibamais:hover, a.linksaibamais:active /* configuracoes do botao saiba mais*/
+{
+    color: black;
+}
+
+#lateral p
+{
+    margin: 0px;
+}
+
+
+.clearflix  /*limpa a flutuacao herdada de ambos os lados*/
+{
+    clear: both;
+}
+
+.tituloempresa /*h2 dos titulos da empresa*/
+{
+    padding: 0px 10px;
+
+}
+
+
+/*class da imagem do html da pagina home*/
+
+.imagemtexto
+{
+    float: left;
+    margin-right: 10px;
+}
+
+
+ /*imagens da pagina de serviços*/
+ .icones 
+ {
+     width: 100px;
+     height: 100px;
+    /* padding: 50px 10px 50px 10px;
+     margin: -70px 10px 10px 10px;*/
+    float: left;
+    margin-right: 10px;
+
+          
+}
+
+.quadradob /*posicao e configuracao das div com fundo branco*/
+{
+    width: 96%;
+    height: 220px;
+    background: #FFFFFF;
+    display: block;
+    margin-bottom: 10px;
+    padding:  10px  2%;
+    
+}
+
+#h2servico /*h2 dentro das divs do java, html e tag*/
+{
+    text-align: center;
+    
+}
+
+ .pservico /*paragrafo da pagina serviços*/ 
+{
+    text-align: justify;
+}
+
+/*configuracoes da pagina portifolio*/
+.negrito /*aumentou o tamanho da fonte no p de portifolio e colocou negrito*/
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#miniaturas
+{
+    width:225px;
+    height: 600px;
+    float: left;
+    overflow: auto;
+}
+
+#imagemgaleria
+{
+    width: 900px;
+    height: 600px;
+    float: right;
+    /*background-color: aqua;*/
+}
+
+#imagemgaleria iframe
+{
+    width: 800px; 
+    height: 600px;
+    margin-left: 50px;
+    border: 0px;
+    
+}
+
+/*Inicio das configuracoes da pagina contatos*/
+
+#contato
+{
+    width: 560px;
+    height: auto;
+    /*background-color: blueviolet;*/
+    float: left;
+}
+
+.rotulocomum
+{
+    display: block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+
+}
+
+.campoform
+{
+    display: block;
+    width: 240px;
+    height: 30px;
+    background-color: rgba(251,81,5,0.2);
+    border: none;
+    
+}
+
+.bt
+{
+    display: block;
+    width: 250px;
+    height: 30px;
+}
+
+.textform
+{
+    width: 230px; 
+    height: 100px;
+    background-color: rgba(251,81,5,0.2);/*deixa a cor mais transparente*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border: 0px;
+    padding-top: 10px;
+    resize: none;
+    color: black;
+}
+
+.formbotao /*BOTÃO ENVIAR*/
+{
+	width: 100px;
+	height: 30px;
+	background-color: rgba(231, 230, 228, 0.836);
+	border: 0;
+	border-radius: 5px;
+        
+}
+
+.formbotao:hover /*BOTÃO ENVIAR - HOVER*/
+{
+    width: 75px;
+	background-color: rgba(251,81,5,1.00);
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+::placeholder /*muda a cor das escritas das caixinhas que vem por padrao placeholder*/
+{
+    color: black;
+}
+/*configuracao div com iframe*/
+
+#localizacao
+{
+    width: 560px;
+    height: auto;
+    float: right;
+}
+
+.mapa /*iframe da pagina contato com o mapa*/
+{
+    width: 560px;
+    height: 758px;
+    border: 0px;
+}
